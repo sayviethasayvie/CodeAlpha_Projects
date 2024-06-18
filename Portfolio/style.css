@@ -1,1 +1,26 @@
+*{
+    background-color: yellow;
+}
+h1{
+    border: 2px red solid;
+    background-color: aliceblue;
+    border-radius: 4px;
+    box-shadow: 2.5px 0.9px 2.5px 0.9px black;
+    transition: all;
+    transition-duration: 2s;
+   
+}
+h1:hover{
+   /* transform: translateY(360);*/
+    transform: translateY(10px);
+    background-color: rgb(159, 251, 253);
 
+}
+h2{
+    color: blue;
+    transition: all;
+    transition-duration: 3s;
+}
+h2:hover{
+    transform: translateX(550px);
+}
