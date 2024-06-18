@@ -1,1 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ecf0f3;
+    font-family: sans-serif;
+    outline: none;
+}
+h1{
+    padding-top: 30px;
+    
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/premium-photo/cartoon-landscape-with-mountains-sunset_899870-13790.jpg");
+    background-repeat: repeat y;
+}
+.calculator{
+   background-color:#1d1c1b;
+   padding: 15px;
+   border-radius: 30px;
+   box-shadow: inset 2px 4px 10px #FFCAD4, 5px 5px 12px rgba(0, 0, 0, .16);
+   display: grid;
+   grid-template-columns: repeat(4,68px);
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 272px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,
+    inset 5px 5px 12px rgba(0, 0, 0, .16);
+    border:none;
+    border-radius:30px;
+    color: rgb(70,70,70);
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+
+}   
+button{
+    height: 48px;
+    width: 60px;
+    background-color:#FFCAD4;
+    border-radius: 30px;
+
+}
+.equal{
+    width: 127px;
+    margin-top: 3px;
+    background-color: #CAA6A6;
+}
+.team{
+    background-image: url("https://cdn.wallpapersafari.com/14/68/roqB0h.jpg");
+}
+
 
